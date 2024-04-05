@@ -38,3 +38,7 @@ Based on the performance evaluation, Autobahn-ws outperforms Websockets in terms
 
 ## Recommendations
 - For applications prioritizing low latency and high throughput, Autobahn-ws is recommended over Websockets.
+
+## References
+- Tomasetti, Matt. (2021). An Analysis of the Performance of Websockets in Various Programming Languages and Libraries. 10.13140/RG.2.2.18552.57607.
+- https://ville-karkkainen.medium.com/python-is-slow-wait-its-actually-fast-6d2e49621b1

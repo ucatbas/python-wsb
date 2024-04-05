@@ -1,0 +1,27 @@
+version: '3.8'
+services:
+
+  ws:
+    build:
+      context: ./websockets
+    ports:
+      - "5001:5001"
+    container_name: ws
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: '1G'
+
+  autobahn-ws:
+    build:
+      context: ./autobahn-ws
+    ports:
+      - "5002:5002"
+    container_name: autobahn-ws
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: '1G'
+
